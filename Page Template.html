@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+   <title>Template</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Tab Image-->
+   <link rel="icon" type="image/png" href="https://gdurl.com/iPZA">
+   <style>
+      body {font-family: "Lato", sans-serif}
+      .mySlides {display: none}
+   </style>
+   <body>
+      <!-- Navbar -->
+      <div class="w3-top">
+         <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="https://strongstrongfitness.github.io/NewMe/Home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAINING PACKAGES</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+               <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+               <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="https://strongstrongfitness.github.io/NewMe/testimonials" class="w3-bar-item w3-button">TESTIMONIALS</a>
+                  <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button">SOCIAL MEDIA</a>
+                  <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button">VIDEOS ON-DEMAND</a>
+                  <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button">MERCHANDISE</a>
+               </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+         </div>
+      </div>
+      <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+      <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+         <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+         <a href="#tour" tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TRAINING PACKAGES</a>
+         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+         <a href="https://strongstrongfitness.github.io/NewMe/testimonials" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TESTIMONIALS</a>
+         <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCHANDISE</a>
+         <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button">VIDEOS ON-DEMAND</a>
+         <a href="https://strongstrongfitness.github.io/NewMe/comingsoon" class="w3-bar-item w3-button">SOCIAL MEDIA</a>
+      </div>
+      <!-- Page content -->
+      <!-- The Band Section -->
+      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+         <h2 class="w3-wide">Title</h2>
+         <p class="w3-opacity"><i>Subtitle</i></p>
+         <p class="w3-justify">I am very proud of the clients I train and have high expectations for them. I expect you to be honest, have good communication with me, and always give 110%. Please be aware that commitment and attendance are necessary to reach your goals, so I have a 24-hour cancellation policy. Your time is valuable, my time is valuable. With that being said communicate with me and let me know if we need to reschedule within 24 hours or the session will be charged. I will also do the same if necessary.</p>
+         <div class="w3-row w3-padding-32">
+            <div class="w3-third">
+               <p></p>
+               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUCAgL///90dHTh4eHJyclkZGRLS0tubm7MzMwEBAT7+/v09PT4+Pjc3Nzy8vLr6+vU1NSXl5dWVlZ3d3eysrKdnZ03Nzfs7Oy1tbUsLCwQEBA1NTUhISFeXl5oaGi/v79/f39AQECIiIiioqIoKCgZGRk+Pj5ISEiHh4cdHR0urqIiAAAEpUlEQVR4nO3aa3OiPBiAYZB6AhVEdKu2FrXW9v//wVcLeRIg0Z1d6fLO3NfMftgcII+EnKjnAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/N+N/zz/tD2naTrYr//6Ju1KF73S0Jr/IvkLI5R9nk3jif8tCpLj8KVZc1vWXLxaL7xT2ZaqD5X6IrflP0l2simTNnky8Wtmb7t6zZ7KG1lvHKvswaNCccmlleG2mbuU3Pja167/5r/q4RWCnlfpkEOV8WS9b/BjEXrP0sZpI2+oA/goUtLAd0q21rr/PEJ9Lz+rpI+9D90b+0Xapzu+q55RvUMRvofSwtrLpGOfFwnH2wFKuasORajHBH+2Nt8k3X/fioS7Afr+QWp3KUKj5ea4N5fUaTGELMxQJsHTcX44LLNRbCbrbtCpCL2RpZu96ie7+k5Yqbfy0qunh72ufZ4bQf5S81u3IlzrGUDd8GumUsLXouu+SZkor19AP28ZrroVodfXz6BMmcoDK1+tgRSJV80LpDLshuXap2MRykMIy1FFjzLPZQlJCS0Bmp267Ohdi9BYnn1eOqWa90I/KfM3Mqcc7BeQ4Soo/t+5CD15FSf762o1rHZavYCNrbXH3nukShRLm65FOPYG8pCmaxkbw7MqII/o6LqE9IL8+79di/DiIP1UhlF/IbnS/sYmQpEVXTGadjBCY3RRljpTja0T545XxppirOpihOOpX/VmZKrnGjmrb9WEUQxOXYzQO4dmfH6wMfJU1sxZ+6QiLHZhO3WZxFpaItxbs9tSWXlGlXnvfoSbaoTSaZvbzisZzO6f8zxUZkRYPV9RzXf30pdqhNIh7DVkbtlYs9uTSIC1iV395hNniySkYoMiAfu2s7a15D6y9b9D3p5635JRKHVVlW1mOUDJU+pbCstC2L6AaJHcuX5CJjuLubWe11wTyG+SWQrLEZd9pG2RM0Jpkn3g8Iyxo1wTyDttG5xkKHUukdrijFBvnhb2Q2x9LFnugfWpVV6rMTZ2a7Yu3CpnhDIX+DPrKfWLLPXU/PcuUUSNn0SvLU6PjuAeZ4TGmi5+b9Y76TbLkaJOmtYGYH1cYCybTnn2nC3PXsvcEZ6lVX7Ua1TTi/VYojEOV2Nzcl3pYyGjk6qFf9Lyhwx3hMYPf3kon8aCZ3XQTys0tiOeuQhMDoPt1+a0PucjM1XKLixprbgR4TbyTcEoW87ny2wUVFazutuNzfOpq0kcx9VrGFsx42uB/WPVD0RofsVwqr5xNz5yfHvWRY1UxzHJD0Ro7JFd4upLtGp8hqv+HLrkyUheem26GWF172Frcn3Rmt4qHXwZJY1056rpIW5H6H04Ph4WLOuTs7tCdUQxMhbNyzzQ7QgvM/fB2eQn61Q2zkJr6aj2tunTzIllun2gOzvzq0XzI/dloZM59+qrbNYoHi/r/XklefljInFZ94bfes5Nknf9IwT9hwqX4IJkfmd1uTsmUn4SJ8dm8bH38RzMoih+unXjH3Xap/3LL7F7HfzeMcTmWr437Kd796b+fWX5UwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0yn8VGDFFqfdhkQAAAABJRU5ErkJggg==" class="w3-round" alt="Random Name" style="width:60%">
+            </div>
+			<!-- Pictures with links -->
+            <div class="w3-third">
+               <p></p>
+			   <a href="https://www.w3schools.com">
+               <img src="https://gdurl.com/6Wcu" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+			   </a>
+            </div>
+            <div class="w3-third">
+               <p></p>
+               <img src="https://cdn1.designhill.com/cache/uploads/pagefile/1552986838-11885283995c90b2d6bdc880-90853734-500x500.jpg?ver=2.11.1" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+            </div>
+         </div>
+      </div>
+      <!-- The Tour Section -->
+      <div class="w3-black" id="tour">
+         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+            <h2 class="w3-wide w3-center">TRAINING PACKAGES</h2>
+            <p class="w3-opacity w3-center"><i>Remember to book your training!</i></p>
+            <br>
+			<!-- button that has onclick event to pull up a ticket ordering form -->
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+               <div class="w3-third w3-margin-bottom">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fenton_Park_rock_garden.jpg/800px-Fenton_Park_rock_garden.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                     <p><b>Offer 1</b></p>
+                     <p class="w3-opacity">Date</p>
+                     <p>Short Description here</p>
+                     <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Button Name</button>
+                  </div>
+               </div>
+			   <!-- button that has onclick event to go to a link -->
+               <div class="w3-third w3-margin-bottom">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fenton_Park_rock_garden.jpg/800px-Fenton_Park_rock_garden.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                     <p><b>Offer 2</b></p>
+                     <p class="w3-opacity">Date</p>
+                     <p>Short Description here</p>
+                     <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'">Button Name</button>
+                  </div>
+               </div>
+               <div class="w3-third w3-margin-bottom">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fenton_Park_rock_garden.jpg/800px-Fenton_Park_rock_garden.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                     <p><b>Offer 3</b></p>
+                     <p class="w3-opacity">Date</p>
+                     <p>Short Description here</p>
+                     <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Button Name</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div> 
+      <!-- End Page Content -->
+      </div>    
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+         <i class="fa fa-facebook-official w3-hover-opacity" href="https://strongstrongfitness.github.io/NewMe/comingsoon"/></i>
+         <i class="fa fa-instagram w3-hover-opacity" ></i>
+         <i class="fa fa-snapchat w3-hover-opacity"></i>
+         <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+         <i class="fa fa-twitter w3-hover-opacity"></i>
+         <i class="fa fa-linkedin w3-hover-opacity"></i>
+         <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+      <script>
+         // Automatic Slideshow - change image every 4 seconds
+         var myIndex = 0;
+         carousel();
+         
+         function carousel() {
+           var i;
+           var x = document.getElementsByClassName("mySlides");
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+           }
+           myIndex++;
+           if (myIndex > x.length) {myIndex = 1}    
+           x[myIndex-1].style.display = "block";  
+           setTimeout(carousel, 4000);    
+         }
+         
+         // Used to toggle the menu on small screens when clicking on the menu button
+         function myFunction() {
+           var x = document.getElementById("navDemo");
+           if (x.className.indexOf("w3-show") == -1) {
+             x.className += " w3-show";
+           } else { 
+             x.className = x.className.replace(" w3-show", "");
+           }
+         }
+         
+         // When the user clicks anywhere outside of the modal, close it
+         var modal = document.getElementById('ticketModal');
+         window.onclick = function(event) {
+           if (event.target == modal) {
+             modal.style.display = "none";
+           }
+         }
+      </script>
+   </body>
+</html>
